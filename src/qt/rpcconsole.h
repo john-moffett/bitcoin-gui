@@ -58,6 +58,7 @@ public:
 #ifdef ENABLE_WALLET
     void addWallet(WalletModel* const walletModel);
     void removeWallet(WalletModel* const walletModel);
+    void SetCurrentWallet(WalletModel* const wallet_model);
 #endif // ENABLE_WALLET
 
     enum MessageClass {
